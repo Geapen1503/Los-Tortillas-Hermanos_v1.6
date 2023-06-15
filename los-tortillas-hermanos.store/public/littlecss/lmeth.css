@@ -1,0 +1,47 @@
+div#MainBox{
+    width: 100%;
+    height: 86vh;
+    background-color: #FCCC00;
+    display: flex;
+    align-items: center;
+}
+
+
+div#methBox1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 44vh;
+    height: 72vh;
+}
+
+img.methIMG1{
+    width: 40vh;
+    height: 24vh;
+}
+
+div#textMeth1{
+    width: 40vh;
+    height: 24vh;
+    color: white;
+    background-color: black;
+}
+
+p.pMeth{
+    font-size: 2.4vh;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 1vh;
+}
+
+p.methJoke{
+    font-size: 1.4vh;
+    text-align: center;
+}
+
+img.methIMG2{
+    width: 40vh;
+    height: 24vh;
+}

@@ -1,0 +1,136 @@
+div#MainBox{
+    display: flex;
+    width: 100%;
+    height: 140vh;
+    background-color: #FCCC00;
+    align-items: center;
+    /*flex-direction: column;*/
+}
+
+div#startBox{
+    background-color: transparent;
+    width: 44vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#welcomeBox{
+    display: flex;
+    background-color: black;
+    border: 2px solid darkblue;
+    width: 38vh;
+    height: 50vh;
+    margin-top: 2vh;
+    margin: 3vh;
+}
+
+p.welcomeText{
+    color: #D9D6FF;
+    font-size: 3vh;
+    padding: 2vh;
+}
+
+p.signature{
+    color: orange;
+    font-size: 2.1vh;
+    display: flex;
+    justify-content: end;
+    padding-left: 2vh;
+    /*padding-right: ;*/
+}
+
+q.bigGui{
+    size: b5;
+}
+
+img.pimento{
+    width: 0vh;
+    height: 0vh;
+    display: none;
+    visibility: hidden ;
+    margin-top: 0vh;
+}
+
+div#midBox{
+    display: flex;
+    width: 44vh;
+    height: 36vh;
+    flex-direction: column;
+    justify-content: start;
+}
+
+div#caroussel{
+    display: flex;
+    align-self: center;
+}
+
+div#caroussel{
+    width: 200px;
+    height: 140px;
+    overflow: hidden;
+    border: 2px solid blue;
+}
+
+img.dimg{
+    width: 200px;
+    height: 140px;
+}
+
+div.img{
+    display: flex;
+    animation-duration: 25s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mesImages{
+    0%{
+        transform: translateX(0);
+    }
+    16.66%{
+        transform: translateX(-200px);
+    }
+    33.32%{
+        transform: translateX(-400px);
+    }
+    49.98%{
+        transform: translateX(-600px);
+    }
+    66.64%{
+        transform: translateX(-800px);
+    }
+    83.3%{
+        transform: translateX(-1000px);
+    }
+    99.96%{
+        transform: translateX(-1200px);
+    }
+    0%{
+        transform: translateX(0);
+    }
+
+
+}
+
+div#secondBox{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 34vh;
+    background-image: url(../img/greenBackground.jpg);
+}
+
+a.noirServ{
+    width: 36vh;
+    height: 26vh;
+    margin: auto;
+}
+
+img.negServ{
+    width: 36vh;
+    height: 26vh;
+    margin: auto;
+    border: solid blue 2px;
+}

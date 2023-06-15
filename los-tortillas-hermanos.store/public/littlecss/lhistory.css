@@ -1,0 +1,161 @@
+div#MainBox{
+    width: 100%;
+    height: 160vh;
+    background-color: #FCCC00;
+    display: flex;
+    /*justify-content: center;
+    flex-direction: column;*/
+}
+
+
+div.loginEnterBox{
+    display: flex;
+    width: 20vh;
+    height: 10vh;
+    margin-top: 10vh;
+    border: solid blue 0.3vh;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+a.loginButton{
+    font-size: 3vh;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.loginButton:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+
+/*div#mercyTextBox{
+	background-color: black;
+	width: 40vh;
+	height: 45vh;
+	align-self: center;
+	margin-top: 5vh;
+	text-align: center;
+}
+
+p.mercyText{
+	display: flex;
+	color: white;
+	margin: 4vh;
+	font-size: 3vh;
+}*/
+
+div#productBox{
+    display: flex;
+    flex-direction: column;
+    background-color: hotpink;
+    border: 2px solid blue;
+    margin-top: 10vh;
+    width: 40vh;
+    height: 90vh;
+}
+
+div.textProductBox{
+    display: flex;
+    flex-direction: column;
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 60%;
+}
+
+div.imgProductBox{
+    display: flex;
+    background-color: #ADB1B0;
+    width: 100%;
+    height: 40%;
+}
+
+p.productTitle{
+    display: flex;
+    color: white;
+    font-size: 4vh;
+    margin-right: 10%;
+    margin-top: 3vh;
+}
+
+p.productCollector{
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    font-style: italic;
+    margin-top: 0.3vh;
+    margin-left: 19%;
+}
+
+p.productPrice{
+    display: flex;
+    color: white;
+    font-size: 5vh;
+    margin-top: 2vh;
+    margin-left: 19%;
+}
+
+p.typeAuto{
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    margin-top: 2vh;
+    margin-left: 19%;
+}
+
+div.model{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    margin-left: 19%;
+}
+
+a#auto1{
+    display: flex;
+    background-color: red;
+    width: 4vh;
+    height: 4vh;
+}
+
+a#auto2{
+    display: flex;
+    background-color: saddlebrown;
+    width: 4vh;
+    height: 4vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+a#auto3{
+    display: flex;
+    background-color: blueviolet;
+    width: 4vh;
+    height: 4vh;
+}
+
+p.productTDescription{
+    display: flex;
+    color: white;
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-left: 14%;
+}
+
+p.productDescription{
+    display: flex;
+    color: white;
+    font-size: 1.8vh;
+    margin-top: 0.8vh;
+    margin-left: 19%;
+}
+
+img#lalito{
+    display: flex;
+    align-self: center;
+    margin: auto;
+    width: 100%;
+    height: 100%
+}

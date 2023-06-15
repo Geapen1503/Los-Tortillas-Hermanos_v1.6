@@ -1,0 +1,134 @@
+div#MainBox{
+    width: 160vh;
+    height: 170vh;
+    background-color: #FCCC00;
+    display: flex;
+    flex-direction: column;
+}
+
+div#startBox{
+    background-color: transparent;
+    width: 160vh;
+    height: 42vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div#welcomeBox{
+    background-color: black;
+    border: 2px solid darkblue;
+    width: 65vh;
+    height: 18vh;
+    display: flex;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p.welcomeText{
+    color: #D9D6FF;
+    font-size: 2.2vh;
+    padding: 2vh;
+}
+
+p.signature{
+    color: orange;
+    font-size: 1.8vh;
+    display: flex;
+    justify-content: end;
+    padding-right: 2vh;
+}
+
+q.bigGui{
+    size: b5;
+}
+
+img.pimento{
+    width: 30vh;
+    height: 35vh;
+    display: flex;
+    margin-top: 7vh;
+}
+
+div#midBox{
+    display: flex;
+    width: 160vh;
+    height: 70vh;
+    flex-direction: column;
+    justify-content: start;
+}
+
+div#caroussel{
+    display: flex;
+    align-self: center;
+}
+
+div#caroussel{
+    width: 720px;
+    height: 420px;
+    overflow: hidden;
+    border: 2px solid blue;
+}
+
+img.dimg{
+    width: 720px;
+    height: 420px;
+}
+
+div.img{
+    display: flex;
+    animation-duration: 30s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mesImages{
+    0%{
+        transform: translateX(0);
+    }
+    16.66%{
+        transform: translateX(-720px);
+    }
+    33.32%{
+        transform: translateX(-1440px);
+    }
+    49.98%{
+        transform: translateX(-2160px);
+    }
+    66.64%{
+        transform: translateX(-2880px);
+    }
+    83.3%{
+        transform: translateX(-3600px);
+    }
+    99.96%{
+        transform: translateX(-4320px);
+    }
+    0%{
+        transform: translateX(0);
+    }
+
+
+}
+
+div#secondBox{
+    display: flex;
+    justify-content: center;
+    width: 160vh;
+    height: 60vh;
+    background-image: url(../img/greenBackground.jpg);
+}
+
+a.noirServ{
+    width: 60vh;
+    height: 40vh;
+    margin: auto;
+}
+
+img.negServ{
+    width: 60vh;
+    height: 40vh;
+    margin: auto;
+    border: solid blue 2px;
+}

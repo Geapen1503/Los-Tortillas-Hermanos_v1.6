@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../img/chili.JPG);
+}
+
+div#upBande{
+    height: 4vh;
+    background-size: 4vh;
+    background-image: url(../img/losangeBande.png);
+}
+
+div#downBande{
+    height: 4vh;
+    background-size: 4vh;
+    background-image: url("/public/img/losangeBande.png");
+}
+
+div#containerBox{
+    width: 160vh;
+    height: 100%;
+    display: block;
+    margin: auto;
+    background-color: indianred;
+}
+
+header{
+    display: flex;
+    height: 38vh;
+    background-color: orange;
+    flex-direction: row;
+    background: url("../img/croustillasTortillas.jpg") center;
+}
+
+div.headerLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    background-color: transparent;
+}
+
+a.buttonLogo{
+    display: flex;
+    margin-left: 33vh;
+    align-self: center;
+    width: 28vh;
+    height: 28vh;
+}
+
+img.Logo{
+    display: flex;
+    margin-left: 33vh;
+    align-self: center;
+    width: 28vh;
+    height: 28vh;
+}
+
+div.loginOkBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 9vh;
+    height: 8vh;
+    margin-left: 80vh;
+    border-bottom-left-radius: 0.4vh;
+    border-bottom-right-radius: 0.4vh;
+    background-color: darkolivegreen;
+}
+
+a.cartImg{
+    display: flex;
+    width: 6vh;
+    height: 6vh;
+}
+
+a.cartImg:hover{
+    width: 6.3vh;
+    height: 6.3vh;
+    transition-duration: 0.3s;
+}
+
+a.askProfile{
+    display: flex;
+    width: 6.5vh;
+    height: 6.5vh;
+}
+
+a.askProfile:hover{
+    width: 6.8vh;
+    height: 6.8vh;
+    transition-duration: 0.3s;
+}
+
+a.askLogin{
+    display: flex;
+    width: 6.5vh;
+    height: 6.5vh;
+}
+
+a.askLogin:hover{
+    width: 6.8vh;
+    height: 6.8vh;
+    transition-duration: 0.3s;
+}
+
+div#buttonBox{
+    width: 160vh;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkblue;
+}
+
+a.buttona{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2.3vh;
+    font-weight: bold;
+    background-color: darkblue;
+}
+
+a.buttona:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+img.Losange{
+    width: 3vh;
+    height: 3vh;
+}
+
+
+
+
+
+
+footer{
+    /*min-width: 210vh;*/
+    /*max-width: 240vh;*/
+    height: 28vh;
+    background-color: #FCCC00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+div#copyright{
+    font-size: 2.2vh;
+    background-color: #FCCC00;
+    padding-bottom: 4vh;
+    text-align: center;
+    align-items: end;
+}
+
+div#resBox{
+    display: flex;
+    background-color: #FCCC00;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 6vh;
+}
+
+a.réseaux{
+    width: 5vh;
+    height: 5vh;
+}
+
+img.imgRés{
+    width: 5vh;
+    height: 5vh;
+}

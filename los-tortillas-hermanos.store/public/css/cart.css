@@ -1,0 +1,471 @@
+div#MainBox{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #FCCC00;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* beginning of the cart base part */
+
+div#cartBox{
+    display: flex;
+    width: 120vh;
+    height: 78vh;
+    margin-top: 7vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.cartTitle{
+    color: black;
+    font-size: 4vh;
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p.cartDescri{
+    color: black;
+    font-size: 2.2vh;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+div.cartItemsBox{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    margin-top: 7vh;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    border: blue solid 0.3vh;
+    background-color: darkolivegreen;
+}
+
+/* end of the cart base part */
+
+div.notLogBox{
+    display: flex;
+    width: 60vh;
+    height: 25vh;
+    margin-top: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: blue 0.2vh solid;
+    background-color: darkolivegreen;
+}
+
+p.notLogText{
+    display: flex;
+    text-align: center;
+    font-size: 2.6vh;
+    color: white;
+}
+
+a.notLogButton{
+    display: flex;
+    width: 15vh;
+    height: 6vh;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2.6vh;
+    background-color: #A2001A;
+}
+
+a.notLogButton:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+/* beginning of the lalitoAutograph cart part */
+
+div.lalitoAutographCartBox{
+    display: flex;
+    width: 30vh;
+    height: 40vh;
+    flex-direction: column;
+    border: blue solid 0.3vh;
+    background-color: darkolivegreen;
+}
+
+div.imgBox{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    background-color: #ADB1B0;
+}
+
+img.lalitoAutographImg{
+    display: flex;
+    width: 60%;
+    height: 100%;
+
+}
+
+div.descriBox{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+p.productTitle{
+    color: white;
+    margin-top: 1vh;
+    font-size: 2.8vh;
+}
+
+p.productDescri{
+    color: white;
+    margin-top: 0.8vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 1.9vh;
+}
+
+button#lalitoSubmit{
+    margin-top: 1vh;
+    background-color: #A2001A;
+    border: solid 0vh #A2001A;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vh;
+    width: 20vh;
+    height: 5vh;
+}
+
+button#lalitoSubmit:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+p.removeLalitoText{
+    display: flex;
+    color: white;
+    font-size: 2.2vh;
+}
+
+/* beginning of change numbers part */
+
+div.numberItemsBox{
+    display: flex;
+    width: 30vh;
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+form.changeNumbersForm{
+    display: flex;
+    flex-direction: row;
+
+}
+
+button#fewer{
+    background: transparent;
+    border: none;
+    font-size: 2.6vh;
+    color: white;
+}
+
+button#fewer:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+p.numberItemText{
+    color: white;
+    font-size: 2.6vh;
+}
+
+p.numberItemTextMore{
+    color: white;
+    font-size: 2.6vh;
+    margin-left: 0.7vh;
+    margin-right: 0.7vh;
+}
+
+button#plus{
+    background: transparent;
+    border: none;
+    font-size: 2.6vh;
+    color: white;
+}
+
+button#plus:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+/* ending of change numbers part */
+
+/* ending of the lalitoAutograph cart part */
+
+/* beginning of the miguelAutograph cart part */
+
+div.miguelAutographCartBox{
+    display: flex;
+    width: 30vh;
+    height: 40vh;
+    flex-direction: column;
+    border: blue solid 0.3vh;
+    background-color: darkolivegreen;
+}
+
+div.imgBox{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    background-color: #ADB1B0;
+}
+
+img.miguelAutographImg{
+    display: flex;
+    width: 60%;
+    height: 100%;
+
+}
+
+div.descriBox{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+p.productTitle{
+    color: white;
+    margin-top: 1vh;
+    font-size: 2.8vh;
+}
+
+p.productDescri{
+    color: white;
+    margin-top: 0.8vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 1.9vh;
+}
+
+button#miguelSubmit{
+    margin-top: 1vh;
+    background-color: #A2001A;
+    border: solid 0vh #A2001A;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vh;
+    width: 20vh;
+    height: 5vh;
+}
+
+button#miguelSubmit:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+p.removeMiguelText{
+    display: flex;
+    color: white;
+    font-size: 2.2vh;
+}
+
+/* beginning of change numbers part */
+
+div.numberItemsBox{
+    display: flex;
+    width: 30vh;
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+form.changeNumbersForm{
+    display: flex;
+    flex-direction: row;
+
+}
+
+button#fewer2{
+    background: transparent;
+    border: none;
+    font-size: 2.6vh;
+    color: white;
+}
+
+button#fewer2:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+p.numberItemText{
+    color: white;
+    font-size: 2.6vh;
+}
+
+p.numberItemTextMore{
+    color: white;
+    font-size: 2.6vh;
+    margin-left: 0.7vh;
+    margin-right: 0.7vh;
+}
+
+button#plus2{
+    background: transparent;
+    border: none;
+    font-size: 2.6vh;
+    color: white;
+}
+
+button#plus2:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+/* ending of change numbers part */
+
+/* ending of the miguelAutograph cart part */
+
+/* beginning of the flynnAutograph cart part */
+
+div.flynnAutographCartBox{
+    display: flex;
+    width: 30vh;
+    height: 40vh;
+    flex-direction: column;
+    border: blue solid 0.3vh;
+    background-color: darkolivegreen;
+}
+
+div.imgBox{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    background-color: #ADB1B0;
+}
+
+img.flynnAutographImg{
+    display: flex;
+    width: 60%;
+    height: 100%;
+
+}
+
+div.descriBox{
+    display: flex;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+p.productTitle{
+    color: white;
+    margin-top: 1vh;
+    font-size: 2.8vh;
+}
+
+p.productDescri{
+    color: white;
+    margin-top: 0.8vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    font-size: 1.9vh;
+}
+
+button#flynnSubmit{
+    margin-top: 1vh;
+    background-color: #A2001A;
+    border: solid 0vh #A2001A;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vh;
+    width: 20vh;
+    height: 5vh;
+}
+
+button#flynnSubmit:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+p.removeFlynnText{
+    display: flex;
+    color: white;
+    font-size: 2.2vh;
+}
+
+/* beginning of change numbers part */
+
+div.numberItemsBox{
+    display: flex;
+    width: 30vh;
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+form.changeNumbersForm{
+    display: flex;
+    flex-direction: row;
+
+}
+
+button#fewer3{
+    background: transparent;
+    border: none;
+    font-size: 2.6vh;
+    color: white;
+}
+
+button#fewer3:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+p.numberItemText{
+    color: white;
+    font-size: 2.6vh;
+}
+
+p.numberItemTextMore{
+    color: white;
+    font-size: 2.6vh;
+    margin-left: 0.7vh;
+    margin-right: 0.7vh;
+}
+
+button#plus3{
+    background: transparent;
+    border: none;
+    font-size: 2.6vh;
+    color: white;
+}
+
+button#plus3:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+/* ending of change numbers part */
+
+/* ending of the flynnAutograph cart part */

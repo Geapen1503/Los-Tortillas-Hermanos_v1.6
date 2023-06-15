@@ -1,0 +1,88 @@
+
+div#MainBox{
+    width: 160vh;
+    height: 130vh;
+    background-color: #FCCC00;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+div#laCafJob{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 14vh;
+    width: 76vh;
+    height: 20vh;
+    background-color: #3E5D37;
+    color: white;
+}
+
+p.cafp{
+    display: flex;
+    margin-top: 6vh;
+    font-size: 4vh;
+    text-align: center;
+    align-self: center;
+}
+
+p.cafpR{
+    display: flex;
+    font-size: 1.3vh;
+    text-align: center;
+    align-self: center;
+}
+
+div#contactBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    font-size: 2.3vh;
+    width: 86vh;
+    height: 60vh;
+    margin-top: 16vh;
+    color: #FCCC00;
+    font-weight: bold;
+    background-color: darkblue;
+    /*border: solid 2px blue;*/
+    border-radius: 0vh;
+}
+
+p.contactPresText{
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    margin-bottom: 4vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+}
+
+textarea{
+    max-width: 30vh;
+    max-height: 16vh;
+}
+
+input.buttoni{
+    color: white;
+    font-weight: bold;
+    background-color: #A2001A;
+    margin-top: 1.8vh;
+    font-size: 2.5vh;
+    height: 5vh;
+    width: 30vh;
+    border: none;
+
+}
+
+input.buttoni:hover{
+    color: orange;
+    transition-duration: 0.8s;
+}

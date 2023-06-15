@@ -1,0 +1,171 @@
+div#MainBox{
+    width: 160vh;
+    height: 170vh;
+    background-color: #FCCC00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.loginEnterBox{
+    display: flex;
+    width: 20vh;
+    height: 10vh;
+    margin-top: 10vh;
+    border: solid blue 0.3vh;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+a.loginButton{
+    font-size: 3vh;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.loginButton:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+/*div#mercyTextBox{
+	background-color: black;
+	width: 60vh;
+	height: 30vh;
+	align-self: center;
+	margin-top: 15vh;
+	text-align: center;
+}
+
+p.mercyText{
+	display: flex;
+	color: white;
+	margin: 4vh;
+	font-size: 3vh;
+}*/
+
+div#productBox{
+    display: flex;
+    background-color: hotpink;
+    border: 0.3vh solid blue;
+    margin-top: 15vh;
+    width: 80vh;
+    height: 60vh;
+}
+
+div.textProductBox{
+    display: flex;
+    flex-direction: column;
+    background-color: darkolivegreen;
+    width: 50%;
+    height: 100%;
+}
+
+div.imgProductBox{
+    display: flex;
+    background-color: green;
+    width: 50%;
+    height: 100%;
+}
+
+p.productTitle{
+    display: flex;
+    color: white;
+    font-size: 4vh;
+    align-self: center;
+    margin-top: 4vh;
+}
+
+p.productCollector{
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    font-style: italic;
+    margin-top: 1vh;
+    margin-left: 24%;
+}
+
+p#productPrice{
+    display: flex;
+    color: white;
+    font-size: 5vh;
+    margin-top: 4vh;
+    margin-left: 24%;
+}
+
+p.typeAuto{
+    display: flex;
+    color: white;
+    font-size: 2vh;
+    margin-top: 4vh;
+    margin-left: 24%;
+}
+
+div.model{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+    margin-left: 24%;
+}
+
+#auto1{
+    display: flex;
+    background-color: red;
+    width: 4vh;
+    height: 4vh;
+}
+
+#auto2{
+    display: flex;
+    background-color: saddlebrown;
+    width: 4vh;
+    height: 4vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+#auto3{
+    display: flex;
+    background-color: blueviolet;
+    width: 4vh;
+    height: 4vh;
+}
+
+p.productTDescription{
+    display: flex;
+    color: white;
+    font-size: 3vh;
+    margin-top: 3vh;
+    margin-left: 16%;
+}
+
+p.productDescription{
+    display: flex;
+    color: white;
+    font-size: 1.8vh;
+    margin-top: 2vh;
+    margin-left: 20%;
+}
+
+a#buyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vh;
+    height: 5vh;
+    color: white;
+    background-color: #A2001A;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8vh;
+    margin-top: 2vh;
+    margin-left: 30%;
+}
+
+img#lalito{
+    display: flex;
+    width: 100%;
+    height: 100%
+}

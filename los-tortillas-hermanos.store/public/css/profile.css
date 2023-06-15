@@ -1,0 +1,198 @@
+div#MainBox {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #FCCC00;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.notLogBox{
+    display: flex;
+    width: 60vh;
+    height: 25vh;
+    margin-top: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: blue 0.2vh solid;
+    background-color: darkolivegreen;
+}
+
+p.notLogText{
+    display: flex;
+    text-align: center;
+    font-size: 2.6vh;
+    color: white;
+}
+
+a.notLogButton{
+    display: flex;
+    width: 15vh;
+    height: 6vh;
+    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2.6vh;
+    background-color: #A2001A;
+}
+
+a.notLogButton:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+div.profileBox {
+    display: flex;
+    width: 100vh;
+    height: 40vh;
+    margin-top: 15vh;
+    background-color: darkolivegreen;
+    border: blue 0.3vh solid;
+    flex-direction: column;
+}
+
+div.topBox{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    flex-direction: row;
+}
+
+div.profilePicBox{
+    display: flex;
+    width: 28%;
+    height: 100%;
+    border-radius: 50%;
+    border: orange 0.1vh solid;
+}
+
+img.profilePicImg{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+div.descriBox{
+    display: flex;
+    width: 72%;
+    height: 100%;
+    flex-direction: column;
+}
+
+p.userInfo{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 9vh;
+    font-size: 2.4vh;
+    color: white;
+    font-weight: bold;
+}
+
+span.logasUserInfo{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+p.descriTitle{
+    color: white;
+    margin-top: 2.5vh;
+    margin-left: 9vh;
+    font-size: 2.4vh;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+p.descriDescri{
+    color: white;
+    margin-top: 0.4vh;
+    margin-left: 9vh;
+    margin-right: 32vh;
+    font-size: 2.2vh;
+}
+
+from.editProfileForm{
+
+}
+
+button#editProfile{
+    display: flex;
+    margin-top: -21vh;
+    margin-left: 48vh;
+    background-color: #A2001A;
+    border: solid 0vh #A2001A;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.4vh;
+    width: 20vh;
+    height: 5vh;
+}
+
+button#editProfile:hover{
+    color: orange;
+    transition-duration: 0.6s;
+}
+
+p.cantEditProText{
+    display: flex;
+    color: white;
+    font-size: 2.2vh;
+    margin-left: 51.8vh;
+    margin-right: 5vh;
+    margin-top: -10vh;
+}
+
+div.bottomBox{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #A2001A;
+}
+
+div.iconBox{
+    display: flex;
+    width: 35%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a.cartButton{
+    display: flex;
+    width: 8vh;
+    height: 8vh;
+}
+
+a.cartButton:hover{
+    transition-duration: 0.6s;
+    width: 8.1vh;
+    height: 8.1vh;
+}
+
+a.logoutButton{
+    display: flex;
+    width: 8vh;
+    height: 8vh;
+}
+
+a.logoutButton:hover{
+    transition-duration: 0.6s;
+    width: 8.1vh;
+    height: 8.1vh;
+}
+
+img.lineIcon{
+    display: flex;
+    width: 0.6vh;
+    height: 8vh;
+}
